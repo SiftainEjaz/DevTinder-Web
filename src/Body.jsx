@@ -8,7 +8,7 @@ const Body = () => {
     return (
         <div>
             <NavBar/>
-            {/* Any children routes of the body will render here */}
+            {/* Any children routes of the body will render here in the Outlet*/}
             <Outlet/> 
             <Footer />   
         </div>
